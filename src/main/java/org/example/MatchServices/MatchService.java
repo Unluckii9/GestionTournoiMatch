@@ -18,7 +18,7 @@ public class MatchService {
         Random rand = new Random();
         int randomNum = rand.nextInt(10) + 1;
 
-        if (randomNum > 0) {
+        if (randomNum == 1) {
             // Match annulé
             match.setScoreEquipe1(0);
             match.setScoreEquipe2(0);
